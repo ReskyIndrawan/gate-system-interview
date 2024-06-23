@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <header>
+        <figure class="logo">
+          <img src="img/gate-system-logo-crop.png" alt="" />
+        </figure>
+        <div
+          class="news"
+          style="--width: 250px; --height: 40px; --quantity: 5">
+          <div class="news-list">
+            <div class="lister" style="--position: 1">
+              <div>【面接詳細】</div>
+            </div>
+            <div class="lister" style="--position: 2">
+              <div>◆日時７月１日月</div>
+            </div>
+            <div class="lister" style="--position: 3">
+              <div>９時００分開始 ~ １０時００分終了</div>
+            </div>
+            <div class="lister" style="--position: 4">
+              <div>◆面談者: 谷 茂雄／担当部署部長</div>
+            </div>
+
+            <div class="lister" style="--position: 5">
+              <div>◆参加者: レズキインドラワン</div>
+            </div>
+          </div>
+        </div>
+        <nav class="dropDown" onclick="myFunction()">
+          <svg
+            class="w-6 h-6 text-gray-800 dark:text-white"
+            aria-hidden="true"
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            fill="none"
+            viewBox="0 0 24 24">
+            <path
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="m13 19 3.5-9 3.5 9m-6.125-2h5.25M3 7h7m0 0h2m-2 0c0 1.63-.793 3.926-2.239 5.655M7.5 6.818V5m.261 7.655C6.79 13.82 5.521 14.725 4 15m3.761-2.345L5 10m2.761 2.655L10.2 15" />
+          </svg>
+
+          <div id="myDropdown" class="dropdown-content">
+            <a href="index.html">English</a>
+            <a href="japan.html">Japan</a>
+          </div>
+        </nav>
+      </header>
+
+      <section class="slider">
+        <div class="list">
+          <div class="item active">
+            <img class="model" src="/img/model_1.png" alt="" />
+            <div
+              class="image"
+              style="--url: url('img/bg.jpeg')"></div>
+            <div class="content">
+              <h2>Resky Indrawan</h2>
+              <h3>Curriculum vitae</h3>
+              <p p-content="Job Career Last updated 2024-6-25">
+                Job Career Last updated 2024-6-25
+              </p>
+            </div>
+          </div>
+          <div class="item">
+            <div
+              class="image"
+              style="--url: url('img/PLTU.jpeg')"></div>
+            <div class="content">
+              <h2>Air Surya Radiator</h2>
+              <h3>
+                Job Desk: Control the quality of water going to the
+                boiler
+              </h3>
+              <p p-content="From 2014-6 Until 2016-3">
+                From 2014-6 Until 2016-3
+              </p>
+            </div>
+          </div>
+          <div class="item">
+            <div
+              class="image"
+              style="--url: url('img/PLTP.jpeg')"></div>
+            <div class="content">
+              <img src="/img/pertamina.png" alt="" />
+              <h3>Job Desk: Chemical analysis laboratory</h3>
+              <p p-content="From 2016-6 Until 2019-2">
+                From 2016-6 Until 2019-2
+              </p>
+            </div>
+          </div>
+          <div class="item">
+            <div
+              class="image"
+              style="--url: url('img/hirotech.jpeg')"></div>
+            <div class="content">
+              <div class="wrap">
+                <img src="/img/hirotec.svg" alt="" />
+              </div>
+              <h3>Job Desk: Final inspection</h3>
+              <p p-content="From 2019-3 Until 2021-5">
+                From 2019-3 Until 2021-5
+              </p>
+            </div>
+          </div>
+          <div class="item">
+            <div
+              class="image"
+              style="--url: url('img/koyosangyo.jpeg')"></div>
+            <div class="content">
+              <img src="/img/koyosangyo.png" alt="" />
+              <h3>Job desk : Aluminium Heat treatment process</h3>
+              <p p-content="From 2021-7 until now">
+                From 2021-7 Until now
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="arrows">
+          <button id="prev">
+            <svg
+              class="w-6 h-6 text-gray-800 dark:text-white"
+              aria-hidden="true"
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              fill="none"
+              viewBox="0 0 24 24">
+              <path
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M5 12h14M5 12l4-4m-4 4 4 4" />
+            </svg>
+          </button>
+          <button id="next">
+            <svg
+              class="w-6 h-6 text-gray-800 dark:text-white"
+              aria-hidden="true"
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              fill="none"
+              viewBox="0 0 24 24">
+              <path
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M19 12H5m14 0-4 4m4-4-4-4" />
+            </svg>
+          </button>
+        </div>
+      </section>
+    </main>
+
+    <script src="app.js"></script>
+  </body>
+</html>
